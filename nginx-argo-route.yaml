@@ -2,7 +2,6 @@
 kind: Route
 metadata:
   name: nginx-argo-route
-  namespace: default
 spec:
   host: nginx-argo.apps.okd.mal.io
   path: /
