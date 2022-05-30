@@ -14,6 +14,10 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: docker.io/library/nginx
+          image: quay.io/atwatanmalikm/nginx:1.22.0
+          command:
+          - sh
+          - -c
+          - sleep 1d
           ports:
             - containerPort: 80
