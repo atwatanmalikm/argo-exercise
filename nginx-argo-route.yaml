@@ -1,0 +1,13 @@
+﻿apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: nginx-argo-route
+  namespace: default
+spec:
+  host: nginx-argo.apps.okd.mal.io
+  path: /
+  to:
+    kind: Service
+    name: nginx-argo-svc
+  port:
+    targetPort: 80
