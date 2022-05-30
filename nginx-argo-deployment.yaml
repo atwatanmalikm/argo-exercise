@@ -12,6 +12,8 @@ spec:
       labels:
         app: nginx
     spec:
+      serviceAccountName: anyuid
+      serviceAccount: anyuid
       containers:
         - name: nginx
           image: quay.io/atwatanmalikm/simple-webapp:v2
