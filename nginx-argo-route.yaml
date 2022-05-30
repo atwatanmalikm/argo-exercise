@@ -9,4 +9,4 @@ spec:
     kind: Service
     name: nginx-argo-svc
   port:
-    targetPort: 80
+    targetPort: 8080
