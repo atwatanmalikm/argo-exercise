@@ -3,7 +3,6 @@ kind: Route
 metadata:
   name: nginx-argo-route
 spec:
-  host: mynginx-argo.apps.okd.mal.io
   path: /
   to:
     kind: Service
