@@ -16,6 +16,6 @@ spec:
       serviceAccount: anyuid
       containers:
         - name: nginx
-          image: quay.io/atwatanmalikm/simple-webapp:v2
+          image: quay.io/atwatanmalikm/simple-webapp:v1
           ports:
             - containerPort: 8080
