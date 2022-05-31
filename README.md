@@ -1,3 +1,3 @@
 # argo-exercise
 
-Repository for implementing Argo CD in OKD
+Repository containing manifests for implementing Argo CD in OKD
