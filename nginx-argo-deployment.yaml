@@ -17,6 +17,6 @@ spec:
       containers:
         - name: nginx
           image: quay.io/atwatanmalikm/simple-webapp:v2
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
-          imagePullPolicy: Always
