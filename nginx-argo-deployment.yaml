@@ -19,3 +19,4 @@ spec:
           image: quay.io/atwatanmalikm/simple-webapp:v1
           ports:
             - containerPort: 8080
+          imagePullPolicy: Always
